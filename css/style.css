@@ -133,3 +133,16 @@ h2 {
   color: #666;
   margin-top: 40px;
 }
+
+@media (max-width: 600px) {
+  .site-header {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
